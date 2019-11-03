@@ -7,12 +7,16 @@
                 color: cornflowerblue;
             }
         </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     </head>
     <body>
+        <div class="container">
+        <h1>Simple Form</h1>
         <form action="/action_page.php">
-            User Name:<br> <input type="text" name="user-name"> <br>
-            Password:<br> <input type="password" name="password"><br><br>
-            <input type="submit">
+            User Name:<br> <input class ="form-control" type="text" name="user-name"> <br>
+            Password:<br> <input class ="form-control" type="password" name="password"><br><br>
+            <input class ="btn btn-primary" type="submit">
         </form>
+        </div>
     </body>
 </html>
